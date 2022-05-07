@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2ee05fe7d80e44a7b8b016403fc0cb30" Name="Diagram1">
+        <EntityTypeShape EntityType="Telekom_Neva_svyazModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="Telekom_Neva_svyazModel.Абонент" Width="1.5" PointX="8.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Telekom_Neva_svyazModel.Использование_портов" Width="1.5" PointX="10.5" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Telekom_Neva_svyazModel.История_изменений" Width="1.5" PointX="5.25" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Telekom_Neva_svyazModel.Количество_портов" Width="1.5" PointX="6" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="Telekom_Neva_svyazModel.Место_установки" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Telekom_Neva_svyazModel.Обрудование" Width="1.5" PointX="3" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Telekom_Neva_svyazModel.Порт_оборудования" Width="1.5" PointX="8.25" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Telekom_Neva_svyazModel.Телефон" Width="1.5" PointX="5.25" PointY="12" IsExpanded="true" />
+        <EntityTypeShape EntityType="Telekom_Neva_svyazModel.Тип_оборудования" Width="1.5" PointX="0.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Telekom_Neva_svyazModel.Тип_порта" Width="1.5" PointX="6" PointY="8.25" IsExpanded="true" />
+        <AssociationConnector Association="Telekom_Neva_svyazModel.FK_Использование_портов_Абонент" ManuallyRouted="false" />
+        <AssociationConnector Association="Telekom_Neva_svyazModel.FK_Использование_портов_Порт_оборудования" ManuallyRouted="false" />
+        <AssociationConnector Association="Telekom_Neva_svyazModel.FK_История_изменений_Место_установки" ManuallyRouted="false" />
+        <AssociationConnector Association="Telekom_Neva_svyazModel.FK_История_изменений_Обрудование" ManuallyRouted="false" />
+        <AssociationConnector Association="Telekom_Neva_svyazModel.FK_Порт_оборудования_Количество_портов" ManuallyRouted="false" />
+        <AssociationConnector Association="Telekom_Neva_svyazModel.FK_Обрудование_Тип_оборудования" ManuallyRouted="false" />
+        <AssociationConnector Association="Telekom_Neva_svyazModel.FK_Порт_оборудования_Обрудование" ManuallyRouted="false" />
+        <AssociationConnector Association="Telekom_Neva_svyazModel.FK_Телефон_Обрудование" ManuallyRouted="false" />
+        <AssociationConnector Association="Telekom_Neva_svyazModel.FK_Порт_оборудования_Тип_порта" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
